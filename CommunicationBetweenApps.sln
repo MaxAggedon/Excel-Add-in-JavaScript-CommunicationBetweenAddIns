@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationBetweenApps", "CommunicationBetweenApps\CommunicationBetweenApps.csproj", "{94B10339-E1EB-4CDD-B00B-E53C94E8CCD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationBetweenAppsWeb", "CommunicationBetweenAppsWeb\CommunicationBetweenAppsWeb.csproj", "{2F2C5513-354A-4C68-9C4C-C8F1DD2D8AE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94B10339-E1EB-4CDD-B00B-E53C94E8CCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B10339-E1EB-4CDD-B00B-E53C94E8CCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B10339-E1EB-4CDD-B00B-E53C94E8CCD5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{94B10339-E1EB-4CDD-B00B-E53C94E8CCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B10339-E1EB-4CDD-B00B-E53C94E8CCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B10339-E1EB-4CDD-B00B-E53C94E8CCD5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2F2C5513-354A-4C68-9C4C-C8F1DD2D8AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2C5513-354A-4C68-9C4C-C8F1DD2D8AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2C5513-354A-4C68-9C4C-C8F1DD2D8AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2C5513-354A-4C68-9C4C-C8F1DD2D8AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
