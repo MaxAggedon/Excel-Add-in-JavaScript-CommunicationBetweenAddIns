@@ -67,6 +67,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\TaskPaneHome\Toast.js" />
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.min.css" />
     <Content Include="Fonts\office365icons.svg" />
