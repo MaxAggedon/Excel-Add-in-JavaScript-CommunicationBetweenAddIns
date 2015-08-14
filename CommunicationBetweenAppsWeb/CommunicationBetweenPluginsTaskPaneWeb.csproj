@@ -84,9 +84,9 @@
   <ItemGroup>
     <Content Include="App\App.css" />
     <Content Include="App\App.js" />
-    <Content Include="App\Home\Home.css" />
-    <Content Include="App\Home\Home.html" />
-    <Content Include="App\Home\Home.js" />
+    <Content Include="App\TaskPaneHome\TaskPaneHome.css" />
+    <Content Include="App\TaskPaneHome\TaskPaneHome.html" />
+    <Content Include="App\TaskPaneHome\TaskPaneHome.js" />
     <Content Include="Content\Office.css" />
     <Content Include="Images\Close.png" />
     <None Include="Scripts\_references.js" />
