@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<link rel="stylesheet" href="../../Content/fabric.min.css">
+<link rel="stylesheet" href="../../Content/fabric.components.min.css">
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>CodeSample Content Plug-In</title>
+
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+    <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+    <!-- <script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="../../Scripts/Office/1/office.js" type="text/javascript"></script>  -->
+
+    <link href="../App.css" rel="stylesheet" type="text/css" />
+    <script src="../App.js" type="text/javascript"></script>
+
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+    <script src="../Scripts/MortgageCalculator.js"></script>
+</head>
+<body>
+    <h1>Mortgage Calculator</h1>
+    <hr />
+    <div id="display" class="static">
+        <table id="mortgagedata">
+            <thead>
+                <tr>
+                    <td>Loan amount</td>
+                    <td>Monthly payment</td>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <input id="connect"
+           type="button"
+           value="Connect to data"
+           onclick="connectToData()" />
+    <div id="output" style="display:none"></div>
+    <div id="footer" style="display:none;">
+        With $<span id="downpayment">0</span> down at <span id="percentage">0</span>% over <span id="loanterm">0</span> months
+    </div>
+</body>
+</html>
