@@ -73,9 +73,9 @@ If the plug-inplug-in fails to install, ensure that the  SourceLocation element 
 <a name="additional-resources"></a>
 ## Additional resources ##
 
-- [Introduction to Web Storage](https://msdn.microsoft.com/en-us/library/bg142799(v=vs.85).aspx)
+- [Introduction to Web Storage](https://msdn.microsoft.com/library/bg142799(v=vs.85).aspx)
 - [Document.SelectionChanged event](https://msdn.microsoft.com/library/4cbc527c-a1d5-4fb0-b6db-28cc40c5d5e2)
-- [Document.getSelectedDataAsync method](https://msdn.microsoft.com/en-us/library/fp142294(v=office.15))
+- [Document.getSelectedDataAsync method](https://msdn.microsoft.com/library/fp142294(v=office.15))
 
 ## Copyright
 Copyright (c) 2015 Microsoft. All rights reserved.
