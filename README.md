@@ -13,11 +13,11 @@
 
 <a name="summary"></a>
 ##Summary
-There are There are two parts to this sample, a task pane plug-in for Excel, and a content plug-in for Excel.
+There are There are two parts to this sample, a task pane add-in for Excel, and a content add-in for Excel.
 
-- The code in the task pane plug-in for Excel demonstrates how to build a simple user interface that saves data to cross-session web browser storage (localStorage). It also shows how to use a dynamically generated div to surface errors to the user.
+- The code in the task pane add-in for Excel demonstrates how to build a simple user interface that saves data to cross-session web browser storage (localStorage). It also shows how to use a dynamically generated div to surface errors to the user.
 
-- The code in the content plug-in for Excel demonstrates how to detect when the selection in the spreadsheet changes, how to get the data selected after that event, and how to monitor the shared data source for changes. It captures the data from the spreadsheet in an array, evaluates the spreadsheet data with the data from the task pane plug-in, and then displays the results in a table.
+- The code in the content add-in for Excel demonstrates how to detect when the selection in the spreadsheet changes, how to get the data selected after that event, and how to monitor the shared data source for changes. It captures the data from the spreadsheet in an array, evaluates the spreadsheet data with the data from the task pane add-in, and then displays the results in a table.
 
 <a name="prerequisites"></a>
 ## Prerequisites ##
@@ -31,29 +31,29 @@ This sample requires the following:
 
 <a name="components"></a>
 ## Key components of the sample
-The Excel Add-in: JavaScript Communication Between plug-ins sample contains the following important files:
+The Excel Add-in: JavaScript Communication Between add-ins sample contains the following important files:
 
-**CommunicationBetweenPlugInsContent** project, including:
+**CommunicationBetweenAddInsContent** project, including:
 
-- CommunicationBetweenPlugInsContent.xml manifest 
+- CommunicationBetweenAddInsContent.xml manifest 
 - ContentHome.js file 
 - ContentHome.html file 
 - MortgageCalculator.js file
 
-**CommunicationBetweenPlugInsTaskPane** project, including:
+**CommunicationBetweenAddInsTaskPane** project, including:
 
-- CommunicationBetweenPlugInsTaskPane.xml manifest 
+- CommunicationBetweenAddInsTaskPane.xml manifest 
 - TaskPaneTaskPaneHome.js file 
 - TaskPaneTaskPaneHome.html file 
 - toast.js file 
 
 <a name="build"></a>
 ## Build and debug ##
-1. Choose the F5 key to build and deploy the plug-ins. Two instances of Excel 2013 will open, one with the content plug-in (“Mortgage Calculator”) displayed and the other with the task pane plug-in (“Mortgage Info plug-in”) displayed. 
-1. In one of the two instances of Excel 2013, on the Insert tab, in the plug-ins for Office group, choose the arrow below plug-in, and then choose the plug-in that you want to insert.
-1. The other plug-in will be inserted into the current instance of Excel. Both plug-ins should now be inserted in the same Excel session. 
-1. In the content plug-in (“Mortgage Calculator”), choose Connect to Data to establish a connection between the two plug-ins (listening for changes in the data source). 
-1. In the task pane plug-in, enter numbers into the two text box inputs and select an option from the drop-down list. Choose the Submit button when you have entered your data. 
+1. Choose the F5 key to build and deploy the add-ins. Two instances of Excel 2013 will open, one with the content add-in (“Mortgage Calculator”) displayed and the other with the task pane add-in (“Mortgage Info add-in”) displayed. 
+1. In one of the two instances of Excel 2013, on the Insert tab, in the add-ins for Office group, choose the arrow below add-in, and then choose the add-in that you want to insert.
+1. The other add-in will be inserted into the current instance of Excel. Both add-ins should now be inserted in the same Excel session. 
+1. In the content add-in (“Mortgage Calculator”), choose Connect to Data to establish a connection between the two add-ins (listening for changes in the data source). 
+1. In the task pane add-in, enter numbers into the two text box inputs and select an option from the drop-down list. Choose the Submit button when you have entered your data. 
 1. In the Excel spreadsheet, enter numbers into one or more rows in a single column. Select the rows singly or as a range in a single column. 
 
 
@@ -61,7 +61,7 @@ The Excel Add-in: JavaScript Communication Between plug-ins sample contains the 
 ##Troubleshooting
 
 
-If the plug-inplug-in fails to install, ensure that the  SourceLocation element in the CommunicationBetweenPlugInsContent.xml and CommunicationBetweenPlugInsTaskPane.xml files has the correct URL value for the DefaultValue attribute.
+If the add-in fails to install, ensure that the  SourceLocation element in the CommunicationBetweenAddInsContent.xml and CommunicationBetweenAddInsTaskPane.xml files has the correct URL value for the DefaultValue attribute.
 
 <a name="questions"></a>
 ##Questions and comments##
