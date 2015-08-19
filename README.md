@@ -54,7 +54,7 @@ The Excel Add-in: JavaScript Communication Between add-ins sample contains the f
 1. The other add-in will be inserted into the current instance of Excel. Both add-ins should now be inserted in the same Excel session. 
 1. In the content add-in (“Mortgage Calculator”), choose Connect to Data to establish a connection between the two add-ins (listening for changes in the data source). 
 1. In the task pane add-in, enter numbers into the two text box inputs and select an option from the drop-down list. Choose the Submit button when you have entered your data. 
-1. In the Excel spreadsheet, enter numbers into one or more rows in a single column. Select the rows singly or as a range in a single column. 
+1. In the Excel spreadsheet, enter numbers into one or more rows in a single column. Select the rows singly or as a range in a single column. These numbers must be greater than the down payment amount in the task pane app. These numbers will be used to calculate the loan amount in the content app whenever the selection changes to include one or more of these numbers.
 
 
 <a name="troubleshooting"></a>
