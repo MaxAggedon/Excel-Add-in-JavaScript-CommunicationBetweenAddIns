@@ -1,4 +1,4 @@
-# Excel Add-in: JavaScript Communication Between plug-ins
+# Excel Add-in: JavaScript Communication Between add-ins
 
 **Table of contents**
 
