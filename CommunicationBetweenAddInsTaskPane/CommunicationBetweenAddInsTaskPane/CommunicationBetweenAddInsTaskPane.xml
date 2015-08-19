@@ -6,8 +6,8 @@
   <Version>1.0.0.0</Version>
   <ProviderName>[Provider name]</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="CommunicationBetweenApps" />
-  <Description DefaultValue="CommunicationBetweenApps"/>
+  <DisplayName DefaultValue="CommunicationBetweenAddInsTaskPane" />
+  <Description DefaultValue="CommunicationBetweenAddInsTaskPane"/>
   <Hosts>
     <Host Name="Workbook" />
   </Hosts>
@@ -18,7 +18,7 @@
 </OfficeApp>
 
 <!--
-Excel-Add-in-JavaScript-CommunicationBetweenApps, https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenApps/
+Excel-Add-in-JavaScript-CommunicationBetweenAddIns, https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenAddIns/
  
 Copyright (c) Microsoft Corporation
 All rights reserved. 

@@ -4,21 +4,21 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C91BAF3F-3F54-49A3-9EAA-2DA2EC00DC5E}</ProjectGuid>
+    <ProjectGuid>{94B10339-E1EB-4CDD-B00B-E53C94E8CCD5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CommunicationBetweenPlugInsContent</RootNamespace>
-    <AssemblyName>CommunicationBetweenPlugInsContent</AssemblyName>
+    <RootNamespace>CommunicationBetweenApps</RootNamespace>
+    <AssemblyName>CommunicationBetweenApps</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
-    <AppFeaturePartId>{112a2aef-64ea-4677-92ac-b519a65e8f21}</AppFeaturePartId>
-    <WspPartId>{14c05611-3a1f-47df-95fd-5076957b9136}</WspPartId>
-    <WorkflowPartId>{e6dfe32a-1a38-4bfc-a37b-90db4b162f94}</WorkflowPartId>
-    <CspkgPartId>{a4ab8ee4-4c7e-41af-81a9-f58c531377f0}</CspkgPartId>
-    <SqlPackagePartId>{5804c7fd-6174-4b95-8b73-9ab346593a9a}</SqlPackagePartId>
+    <AppFeaturePartId>{10420a4d-de3a-4004-ad66-444165ba1656}</AppFeaturePartId>
+    <WspPartId>{28e32a9b-e381-41e0-96fe-dcedd3abf94e}</WspPartId>
+    <WorkflowPartId>{4ac0f9a3-3e6d-48d1-885c-e6db2bf6cb92}</WorkflowPartId>
+    <CspkgPartId>{f66d222a-9c40-40ec-966c-512470ccaec7}</CspkgPartId>
+    <SqlPackagePartId>{54a34352-e1bc-4b97-9071-95dcbc04bb78}</SqlPackagePartId>
     <ProjectMode>OfficeApp</ProjectMode>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
@@ -43,21 +43,21 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="CommunicationBetweenAddInsContentManifest\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{415f549c-e5bc-48d9-ac0e-cf3077954e86}</SharePointProjectItemId>
+    <None Include="CommunicationBetweenAddInsTaskPane\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c446cf52-af93-409d-aa86-93398cd75f14}</SharePointProjectItemId>
     </None>
-    <Content Include="CommunicationBetweenAddInsContentManifest\CommunicationBetweenAddInsContent.xml">
+    <Content Include="CommunicationBetweenAddInsTaskPane\CommunicationBetweenAddInsTaskPane.xml">
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CommunicationBetweenPlugInsContentWeb\CommunicationBetweenAddInsContentWeb.csproj">
-      <Project>{AB2E81D6-F3FD-427D-A56F-6167818C3FB3}</Project>
-      <Name>CommunicationBetweenAddInsContentWeb</Name>
+    <ProjectReference Include="..\CommunicationBetweenAddInsTaskPaneWeb\CommunicationBetweenAddinsTaskPaneWeb.csproj">
+      <Project>{2F2C5513-354A-4C68-9C4C-C8F1DD2D8AE1}</Project>
+      <Name>CommunicationBetweenAddinsTaskPaneWeb</Name>
       <Private>True</Private>
       <RoleType>Web</RoleType>
       <OutputItemType>SharePointWebProjectOutput</OutputItemType>
-      <RoleName>CommunicationBetweenPlugInsContentWeb</RoleName>
+      <RoleName>CommunicationBetweenAppsWeb</RoleName>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
