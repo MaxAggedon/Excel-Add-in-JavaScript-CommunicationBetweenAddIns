@@ -20,7 +20,7 @@ function calculatePayment(loanAmount, loanTerm, percentage) {
 }
 // *********************************************************
 //
-// Excel-Add-in-JavaScript-CommunicateBetweenApps,https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenApps/
+// Excel-Add-in-JavaScript-CommunicateBetweenAddIns,https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenAddIns/
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.

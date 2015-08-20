@@ -2,13 +2,13 @@
 * Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license at the bottom of this file.
 */
 
-// Declare global variables for the app.
+// Declare global variables for the add-in.
 var percentage;
 var downPayment;
 var loanTerm;
 var salePrices;
 
-// This function is run when the app is ready to start interacting with the host application
+// This function is run when the add-in is ready to start interacting with the host application
 // It ensures the DOM is ready before adding click handlers to buttons
 Office.initialize = function (reason) {
     $(document).ready(function () {
@@ -58,7 +58,7 @@ function connectToData() {
     var interval = setInterval(getData, 500);
 }
 
-// Work with the data saved in localStorage by the connected Office app.
+// Work with the data saved in localStorage by the connected Office add-in.
 function getData() {
 
     var footer = document.getElementById("footer");
@@ -80,7 +80,7 @@ function getData() {
             downPayment = localStorage.getItem("downpayment");
             loanTerm = localStorage.getItem("loanterm");
 
-            // Display the data from localStorage in the content app.
+            // Display the data from localStorage in the content add-in.
             document.getElementById("percentage").innerText = percentage;
             document.getElementById("loanterm").innerText = loanTerm;
             document.getElementById("downpayment").innerText = downPayment;
@@ -175,7 +175,7 @@ function createRow(loanAmount, monthlyPayment) {
 }
 // *********************************************************
 //
-// Excel-Add-in-JavaScript-CommunicateBetweenApps,https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenApps/
+// Excel-Add-in-JavaScript-CommunicateBetweenAddIns,https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenAddIns/
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.

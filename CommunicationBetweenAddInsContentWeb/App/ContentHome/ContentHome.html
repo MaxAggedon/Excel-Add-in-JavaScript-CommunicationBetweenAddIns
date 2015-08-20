@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <title>CodeSample Content Plug-In</title>
+    <title>CodeSample Content Add-In</title>
 
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
 
@@ -47,19 +47,20 @@
         </table>
     </div>
     <br />
-    <input id="connect"
-           type="button"
-           value="Connect to data"
-           onclick="connectToData()" />
-    <div id="output" style="display:none"></div>
-    <div id="footer" style="display:none;">
-        With $<span id="downpayment">0</span> down at <span id="percentage">0</span>% over <span id="loanterm">0</span> months
-    </div>
+    <button class="ms-Button ms-Button" onclick="connectToData()">
+        <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+        <span class="ms-Button-label">Connect to data</span>
+        </button>
+
+        <div id="output" style="display:none"></div>
+        <div id="footer" style="display:none;">
+            With $<span id="downpayment">0</span> down at <span id="percentage">0</span>% over <span id="loanterm">0</span> months
+        </div>
 </body>
 </html>
 
 <!--
-Excel-Add-in-JavaScript-CommunicateBetweenPlugIns, https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenPlugIns/
+Excel-Add-in-JavaScript-CommunicateBetweenPlugIns, https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenAddIns/
 
 Copyright (c) Microsoft Corporation
 All rights reserved.

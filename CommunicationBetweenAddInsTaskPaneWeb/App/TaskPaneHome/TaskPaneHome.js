@@ -7,7 +7,7 @@ var percentage;
 var downPayment;
 var loanTerm;
 
-// This function is run when the app is ready to start interacting with the host application.
+// This function is run when the add-in is ready to start interacting with the host application.
 // It ensures the DOM is ready before adding click handlers to buttons
 Office.initialize = function (reason) {
     $(document).ready(function () {
@@ -21,7 +21,7 @@ Office.initialize = function (reason) {
     });
 };
 
-// NOTE: If you are using live data to set the values communicated to the other plug-in
+// NOTE: If you are using live data to set the values communicated to the other add-in
 // for Office, you can set an interval to get and store the data on an intermittent
 // basis.
 //var providerInterval;
@@ -94,7 +94,7 @@ function validate(value, compareFunction) {
 
 // *********************************************************
 //
-// Excel-Add-in-JavaScript-CommunicationBetweenApps, https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenApps/
+// Excel-Add-in-JavaScript-CommunicationBetweenAddIns, https://github.com/OfficeDev/Excel-Add-in-JavaScript-CommunicationBetweenAddIns/
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.
