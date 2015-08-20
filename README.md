@@ -72,7 +72,7 @@ If the add-in fails to install, ensure that the  SourceLocation element in the C
 
 <a name="additional-resources"></a>
 ## Additional resources ##
-
+- [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
 - [Introduction to Web Storage](https://msdn.microsoft.com/library/bg142799(v=vs.85).aspx)
 - [Document.SelectionChanged event](https://msdn.microsoft.com/library/4cbc527c-a1d5-4fb0-b6db-28cc40c5d5e2)
 - [Document.getSelectedDataAsync method](https://msdn.microsoft.com/library/fp142294(v=office.15))
