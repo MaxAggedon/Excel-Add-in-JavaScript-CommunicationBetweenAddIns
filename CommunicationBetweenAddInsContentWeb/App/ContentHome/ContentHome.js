@@ -103,7 +103,7 @@ function getData() {
         // Display an error message in the output div.
         footer.setAttribute("style", "display:none");
         output.setAttribute("style", "display:block");
-        output.innerText = "No data source available.";
+        output.innerText = "Click the submit button to test the connection.";
 
     }
 }
