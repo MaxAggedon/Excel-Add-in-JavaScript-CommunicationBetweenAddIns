@@ -73,6 +73,7 @@
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -84,7 +85,6 @@
     <Content Include="App\ContentHome\MortgageCalculator.js" />
     <Content Include="Content\fabric.css" />
     <Content Include="Content\fabric.min.css" />
-    <Content Include="Content\Office.css" />
     <Content Include="Fonts\office365icons.svg" />
     <Content Include="Images\Close.png" />
     <Content Include="Fonts\office365icons.eot" />
