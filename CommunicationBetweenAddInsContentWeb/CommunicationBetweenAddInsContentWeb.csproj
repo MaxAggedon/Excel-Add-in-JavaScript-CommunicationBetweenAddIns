@@ -83,8 +83,6 @@
     <Content Include="App\ContentHome\ContentHome.html" />
     <Content Include="App\ContentHome\ContentHome.js" />
     <Content Include="App\ContentHome\MortgageCalculator.js" />
-    <Content Include="Content\fabric.css" />
-    <Content Include="Content\fabric.min.css" />
     <Content Include="Fonts\office365icons.svg" />
     <Content Include="Images\Close.png" />
     <Content Include="Fonts\office365icons.eot" />

@@ -68,8 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\TaskPaneHome\Toast.js" />
-    <Content Include="Content\fabric.components.min.css" />
-    <Content Include="Content\fabric.min.css" />
     <Content Include="Fonts\office365icons.svg" />
     <Content Include="packages.config" />
     <Content Include="Fonts\office365icons.eot" />
@@ -88,7 +86,6 @@
     <Content Include="App\TaskPaneHome\TaskPaneHome.css" />
     <Content Include="App\TaskPaneHome\TaskPaneHome.html" />
     <Content Include="App\TaskPaneHome\TaskPaneHome.js" />
-    <Content Include="Content\Office.css" />
     <Content Include="Images\Close.png" />
     <None Include="Scripts\_references.js" />
     <None Include="Scripts\Office\1\outlook-win32.debug-vsdoc.js" />
